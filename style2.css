@@ -1,0 +1,34 @@
+*{
+  box-sizing: border-box;
+  background-image: url("bg.jpg");
+  background-attachment: fixed;
+}
+body{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 32;
+  color: navy;
+}
+.shell{
+  padding: 35px;
+  height: 250px;
+  width: 850px;
+  border-radius: 15px;
+  background: White;
+  opacity: .5
+
+
+}
+.arti{
+  padding-top: 35;
+  padding-bottom:35;
+  height: 200px;
+  width: 800px;
+  background: white;
+  opacity: .5;
+
+}
+.paragraph{
+  background: white;
+  opacity: .5;
+
+}
