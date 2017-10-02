@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18;
+  color: navy;
+}
+/* experiment c position*/
+.position-parent{
+width: 200px;
+height: 300px;
+background: pink;
+position: relative;
+margin: 50px;
+}
+.position-child{
+height: 300px;
+background: violet;
+position: relative;
+left: 100px;
+top: 100px;
+
+}
+.position-child-absolute{
+height: 300px;
+width: 200px;
+background: gray;
+position: absolute;
+left: 100px;
+top: 100px;
+}
+.position-child-fixed{
+height: 50px;
+width: 100px;
+background: green;
+position: fixed;
+right: 100px;
+top: 100px;
+}
+
+
+.position-child-z-index{
+height: 100px;
+width: 300px;
+background: purple;
+position: absolute;
+}
+.z-index-1{
+left: 50px;
+top: 50px;
+background: red;
+opacity: .5;
+z-index: 3;
+}
+.z-index-2{
+  left: 100px;
+  top: 100px;
+  background: green;
+  opacity: .3;
+  z-index: 2;
+}
+.z-index-3{
+  left: 150px;
+  top: 150px;
+  background: blue;
+  opacity: .1;
+z-index: 1
+}
+.font{
+  padding: 100px 0;
+}
+.font-size{
+  font-size: 30px;
+}
+.font-weight{
+  font-weight: 700;
+}
+.font-style{
+  font-style: italic;
+}
+.font-variant{
+  font-variant: small-caps;
+}
+.text-shadow{
+  text-shadow: 5px 5px 5px blue;
+}
