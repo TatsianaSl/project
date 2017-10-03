@@ -8,6 +8,26 @@ body{
   font-size: 32;
   color: navy;
 }
+.main-nav{
+  display: inline-block;
+  padding: 10px;
+  height: 25px;
+  width: 220px;
+  z-index: 3;
+  opacity 1
+}
+.main-nav-shell{
+
+  padding: 20px;
+  height: 30px;
+  width: 230px;
+  border-radius: 15px;
+  color: white;
+  border-radius: 15px;
+  position: relative;
+  z-index: 2;
+  opacity 0.5
+}
 .shell{
   padding: 35px;
   height: 250px;
