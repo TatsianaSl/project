@@ -2,7 +2,17 @@
   box-sizing: border-box;
 
 }
+body{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 32;
+  color: navy;
+}
+h1{
+  display: block;
+  text-shadow: 2px 2px 0 lightgray;
+}
 header{
+  display: inline-block;
   background-color: yellow;
   padding: 10px;
   height: 100px;
@@ -12,50 +22,39 @@ header{
   border-width: thick;
   border-style: dotted;
 }
-body{
-  font-family: 'PT Sans Narrow', sans-serif;
-  font-size: 32;
-  color: navy;
-}
-h1{
-  display: inline-block;
-}
 nav{
-  box-sizing: border-box;
-  border-color: yellow;
-  border-width: thick;
-  border-style: dotted;
+  display: inline-block;
   background-color: gray;
   padding: 10px;
   height: 70px;
-  width: 680px;
+  width: 670px;
   position:absolute;
   right: 10px;
   top: 10px;
   text-align: center;
-}
-a.main-nav{
-  display: inline-block;
-  height: 80px;
-  width: 150px;
-  right: 10px;
-  top: 10px;
+  border-color: yellow;
+  border-width: thick;
+  border-style: dotted;
 }
 aside{
-  display: inline-block;
-  background-color: green;
-  padding: 10px;
-  width: 200px;
-  position: relative;
-  right: 100px;
-  top: 100px;
+  padding: 100px 10px 5px 710px;
+  width: 180px;
+  height: auto;
+  position: fixed;
+  display: block;
+  width: auto;
+  height: auto;
   text-align: center;
 }
 article{
-
-  padding-top: 100px;
-  width: 600px;
+  display: inline-block;
+  padding: 100px 5px 5px 5px;
+  height: auto;
+  width: 700px;
   line-height: 1.5;
+  border-color: yellow;
+  border-width: thick;
+  border-style: dotted;
 }
 footer{
   display: inline-block;
