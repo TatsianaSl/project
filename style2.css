@@ -6,65 +6,150 @@ body{
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 32;
   color: navy;
+  background: url(bg.jpg)
 }
-h1{
+.containerHeader{
   display: block;
-  text-shadow: 2px 2px 0 lightgray;
-}
-header{
-  display: inline-block;
-  background-color: yellow;
-  padding: 10px;
-  height: 100px;
+  height: 120px;
   width: 900px;
+  margin: 10px;
+  padding: 10px 5px 5px 5px;
+  background-color: white;
+  opacity: 1;
+  border: 1px white solid;
+  border-radius: 15px;
   position: fixed;
-  border-color: grey;
-  border-width: thick;
-  border-style: dotted;
+  z-index: 5
 }
-nav{
-  display: inline-block;
-  background-color: gray;
+.mainTitle{
+  display: block;
   padding: 10px;
-  height: 70px;
+  height: 80px;
+  width: 200px;
+  margin: 0;
+  opacity: 1;
+  text-shadow: 5px 5px 0 gray;
+  z-index: 6
+}
+.mainNav{
+  display: inline-block;
+  padding: 10px;
+  height: 60px;
   width: 670px;
   position:absolute;
+  z-index: 6;
   right: 10px;
   top: 10px;
   text-align: center;
-  border-color: yellow;
-  border-width: thick;
-  border-style: dotted;
+  opacity: 1;
+  font-size: 25;
+  }
+.refer{
+  display: inline-block;
+  padding: 0px;
+  height: 45px;
+  width: 139px;
+  opacity: 1px;
+  position:relative;
+  z-index: 7
 }
-aside{
-  padding: 100px 10px 5px 710px;
-  width: 180px;
-  height: auto;
-  position: fixed;
+.art-tytle{
   display: block;
-  width: auto;
-  height: auto;
+  padding: 70px 10px 10px 10px;
+  height: 80px;
+  width: 700px;
+  margin: 10;
+  text-shadow: 2px 2px 0 lightgray;
+  opacity: 1;
+  position: relative;
   text-align: center;
+  z-index: 4;
 }
+
 article{
   display: inline-block;
-  padding: 100px 5px 5px 5px;
-  height: auto;
+  margin-top: 145px;
+  margin-left: 5px;
+  padding: 5px;
+  height: 750px;
   width: 700px;
   line-height: 1.5;
-  border-color: yellow;
-  border-width: thick;
-  border-style: dotted;
+  overflow: auto;
+  border: 1px;
+  border-color: white;
+  border-radius: 15px;
+  background: white;
+  opacity: 0.8
+
+}
+.shell{
+  display: inline-block;
+  margin: 145px 0px 5px 725px;
+  width: 170px;
+  height: 750px;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  opacity: 0.8;
+  position: fixed;
+  font-size: 20;
+  text-align: center;
+  z-index: 3;
+}
+.tytle{
+  display: inline-block;
+  width: 150px;
+  height: auto;
+  padding: 5px;
+  margin: 5px;
+  z-index: 4;
+  position: relative;
+  font-size: 20;
+  text-align: center;
+}
+.reference{
+  display: inline-block;
+  width: 150px;
+  height: auto;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+  font-size: 20;
+  text-align: center;
 }
 footer{
   display: inline-block;
-  height: 30px;
+  margin-top: 10px;
+  margin-left: 5px;
+  height: 25px;
   width: 900px;
-  border-color: yellow;
-  border-width: thick;
-  border-style: dotted;
+  border-color: white;
+  border-width: thin;
+  border-radius: 15px;
   text-align: center;
-  background-color: gray;
+  background-color: white;
   opacity: 0.8
 
+
+
+}
+.container{
+  width: 700px;
+  height: auto;
+  padding: 100px 5px 5px 5px;
+  margin: 65px 10px 10px 10px;
+  background-color: white;
+  opacity: 0.8;
+  border: 1px white solid;
+  border-radius: 15px;
+  position: relative;
+  z-index: 3;
+}
+.element{
+  width: 680px;
+  height: 200px;
+  padding: 5px;
+  margin: 5px;
+  overflow: auto;
+  z-index: 4;
 }

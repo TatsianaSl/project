@@ -2,33 +2,39 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <!--document title -->
     <title>FILL YOUR LIFE</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
-  <header>
-          <h1>FILL YOUR LIFE</h1>
-        <nav>
-            <a href="article.html">ОБО МНЕ</a>
-            <a href="article.html">МОТИВАЦИЯ НА КАЖДЫЙ ДЕНЬ</a>
-            <a href="article.html">СТАТЬИ ПО МОТИВАЦИИ</a>
-            <a href="contacts.html">КОНТАКТЫ</a>
-          </nav>
-  </header>
+<div class="containerHeader">
+    <header>
+            <h1 class="containerHeader mainTitle">FILL YOUR LIFE</h1>
+          <nav class="containerHeader mainNav">
+              <a class="containerHeader mainNav refer" href="article0.html">ОБО МНЕ</a>
+              <!--does not work-->
+              <a class="containerHeader mainNav refer" href="article0.html">МОТИВАЦИЯ НА КАЖДЫЙ ДЕНЬ</a>
+              <!--does not work-->
+              <a class="containerHeader mainNav refer" href="article.html">СТАТЬИ ПО МОТИВАЦИИ</a>
+              <!--MUST WORK BUT does not work-->
+              <a class="containerHeader mainNav refer" href="contacts.html">КОНТАКТЫ</a>
+            </nav>
+    </header>
+</div>
+      <aside class="shell">
+              <h2 class="shell tytle">Статьи по мотивации</h2>
 
-<aside>
-<h2>Статьи по мотивации</h2>
+            <a class="shell reference" href="article-3.html">Отрасли психологии</a>
 
-  <a href="article-3.html">Отрасли психологии</a>
+            <a class="shell reference" href="article-4.html">Место психологии в системе наук</a>
 
-  <a href="article-4.html">Место психологии в системе наук</a>
+            <a class="shell reference" href="article-5.html">Взаимосвязь психологии и современных наук</a>
 
-  <a href="article-5.html">Взаимосвязь психологии и современных наук</a>
-
-</aside>
-  <article class="boxing" id="article-5">
+      </aside>
+<section>
+  <article  id="article-5">
     <!--Данная страница будет содердать только одну статью-->
     <h3>Взаимосвязь психологии и современных наук</h3>
     <p>Вопросы психологии долгое время рассматривались в рамках философии. Только в середине XIX века психология стала самостоятельной наукой. Но отделившись от философии, она продолжает сохранять тесную связь с ней. В настоящее время существуют научные проблемы, которые изучаются как психологией, так и философией. К числу таких проблем относятся понятия личностного смысла, цели жизни, мировоззрение, политические взгляды, моральные ценности и другое. Психология использует экспериментальные методы для проверки гипотез. Однако есть вопросы, которые невозможно решить экспериментальным путём. В таких случаях психологи могут обращаться к философии. К числу философско-психологических проблем относятся проблемы сущности и происхождения человеческого сознания, природы высших форм человеческого мышления, влияние общества на личность и личность на общество.</p>
@@ -38,7 +44,7 @@
       <a href="https://ru.wikipedia.org/wiki/Психология" target="_blank">Первоисточник https://ru.wikipedia.org/wiki/Психология</a>
 
   </article>
-
+</section>
   <footer class="boxing">
     (c) Tatsiana Slavinskaya 2017
   </footer>
