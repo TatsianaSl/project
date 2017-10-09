@@ -85,3 +85,264 @@ z-index: 1
 .text-shadow{
   text-shadow: 5px 5px 5px blue;
 }
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /*align-items: center;*/
+  align-content: center;
+  height: 400px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  border: 1px solid navy;
+}
+.flex-element{
+  width: 100px;
+}
+.flex-element-1{
+  background-color: red;
+  order: 2;
+}
+.flex-element-2{
+  background-color: blue;
+  order: 3;
+}
+.flex-element-3{
+  background-color: yellow;
+  order: 4;
+}
+.flex-element-4{
+  background-color: pink;
+  order: 5;
+  flex-grow: 5
+}
+.flex-element-5{
+  background-color: green;
+  order: 1;
+}
+
+.backgroundColor{
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  position: relative;
+}
+.backgroundColor-child{
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  position: absolute;
+   top: 50px;
+   left:50px;
+}
+.linergradirnt{
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(red, yellow);
+  margin: 100px;
+  position: absolute;
+   top: 50px;
+   left:50px;
+}
+.linergradirnt-1{
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(to top left, green, yellow);
+  margin: 100px;
+
+}
+.linergradirnt-2{
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(60deg, blue, green, yellow, pink);
+  margin: 100px;
+
+}
+.linergradirnt-4{
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(blue 10%, green 10%, yellow 30%, pink 60%);
+  margin: 100px;
+}
+.radial-gradient{
+  width: 600px;
+  height: 300px;
+  background-image: radial-gradient(blue, green);
+  margin: 100px;
+}
+.radial-gradient-1{
+  width: 600px;
+  height: 300px;
+  background-image: radial-gradient(at left bottom, blue, green, pink);
+  margin: 100px;
+}
+.radial-gradient-2{
+  width: 600px;
+  height: 300px;
+  background-image: radial-gradient(circle, blue, green);
+  margin: 100px;
+}
+.radial-gradient-3{
+  width: 600px;
+  height: 300px;
+  background-image: linear-gradient(#febbbb 0%,#fe9090 61%,#fe9090 61%,#ff5c5c 100%);
+  margin: 100px;
+}
+.box-shadow{
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  background-color: blue;
+  border: 2px solid;
+  box-shadow: 10px 15px 5px 1px black;
+}
+.box-shadow-inset{
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  background-color: red;
+  border: 2px solid;
+  box-shadow: inset 10px 15px 5px 1px blue;
+}
+
+.calc-parent{
+  display: flex;
+  height: 300px;
+  border: 1px solid blue;
+  margin-left: -10px;
+  margin-right: -10 px
+  margin: 10px;
+}
+.calc-child{
+width: calc(50% - 20px);
+margin: 0 10px;
+background-color: pink;
+}
+
+.calc-parent-part{
+  display: flex;
+  height: 300px;
+  border: 1px solid blue;
+}
+  .calc-child-part{
+  width: calc(100% / 7);
+  margin: 0 5px;
+  background-color: red;
+  }
+
+  .calc-parent-2{
+    display: flex;
+    height: 300px;
+    border: 1px solid navy;
+  }
+  .calc-child-responsive{
+  width: 200px;
+  margin: 0 5px;
+  background-color: red;
+
+  }
+  .calc-child-fixed{
+  width: calc(100% - 200px);
+  margin: 0 5px;
+  background-color: green;
+
+  }
+.hover{
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  background-color: green;
+}
+.hover:hover{
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.link-hover{
+  color: green;
+  font-size: 50px;
+}
+.link-hover:hover{
+  color: navy;
+  text-decoration: none;
+}
+.focus{
+  height: 50px;
+  border: 1px solid red;
+  border-radius: 15px;
+  padding: 10px;
+}
+.focus:focus{
+  height: 50px;
+  border: 1px solid red;
+  box-shadow: 0 0 5px 0 black
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.pseudo-slasses-parent{
+  padding: 20px;
+  margin: 30px;
+}
+.pseudo-slasses-child{
+  height: 50px;
+  margin: 30px;
+  border: 2px solid blue;
+}
+.pseudo-slasses-child:first-child{
+  background-color: pink;
+  margin-top: 0;
+}
+.pseudo-slasses-child:last-child{
+  background-color: green;
+  margin-bottom: 0;
+}
+
+.pseudo-slasses-child:nth-child(2){
+
+  border: 2px solid red;
+}
+  .pseudo-slasses-child:nth-child(2n){
+
+    border: 2px solid yellow;
+  }
+
+
+  .pseudo-slasses-child:nth-child(even){
+
+    background-color: blue;
+  }
+.pseudo-element:before{
+  content: 'i am before';
+  color: red;
+}
+
+.pseudo-element:after{
+  content: 'I am after';
+  color: blue;
+}
+.transition-color{
+  font-size: 100px;
+  color: green;
+  transition: color 1s ease 1s,
+              font-size 2s ease-out;
+}
+.transition-color:hover{
+  color: red;
+  font-size: 50px;
+}
+.transition-left{
+  height: 100px;
+  width: 100px;
+  border: 1px solid blue;
+  position: relative;
+  left: 0;
+  transition: left 3s  easy-in 1s;
+}
+.transition-left:hover{
+  left: 100px;
+  width: 300px;
+}

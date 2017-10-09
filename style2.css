@@ -6,7 +6,17 @@ body{
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 32;
   color: navy;
-  background: url(bg.jpg)
+
+}
+.backgroundSvg{
+  width: 1000px;
+  height: 100px;
+  margin: 100px;
+  background-image: url("img/img-7.svg");
+  background-repeat: cover;
+  background-position: center;
+}
+
 }
 .containerHeader{
   display: block;
