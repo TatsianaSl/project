@@ -17,8 +17,6 @@ body{
   background-color: white;
   opacity: .8;
   border-radius: 5px;
-  border: 1px solid blue;
-
 }
 .grid-header{
 grid-row-start: 1;
