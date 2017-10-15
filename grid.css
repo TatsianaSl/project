@@ -3,6 +3,8 @@
   min-height: 100vh;
   grid-template-columns: 1fr 1fr 200px;
   grid-template-rows: 100px 2fr 1fr 50px;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
 }
 .grid-container div{
   border: 1px solid blue;
