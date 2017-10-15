@@ -1,52 +1,86 @@
+
+/*1.Size*/
+/*2.Position*/
+/*3.Flex*/
+/*4.Design*/
+/*5.Hover*/
+/*6.Transition*/
+
 *{
   box-sizing: border-box;
 
 }
 body{
+  padding: 0;
+  margin: 0;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 32;
   color: navy;
-
-}
-.backgroundSvg{
-  width: 1000px;
-  height: 100px;
-  margin: 100px;
-  background-image: url("img/img-7.svg");
-  background-repeat: cover;
-  background-position: center;
+  /*background-image: url(bg.jpg);*/
 }
 
-}
-.containerHeader{
-  display: block;
+
+.flex-container{
+  /*1.Size*/
   height: 120px;
-  width: 900px;
-  margin: 10px;
-  padding: 10px 5px 5px 5px;
-  background-color: white;
-  opacity: 1;
-  border: 1px white solid;
-  border-radius: 15px;
+  width: 100%;
+  /*2.Position*/
   position: fixed;
-  z-index: 5
+  z-index: 1
+  top: 0;
+  left: 0;
+  /*3.Flex*/
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  /*4.Design*/
+  background-image: linear-gradient(white; yellow; orange);
+  opacity: 1;
+  border: 1px red solid;
+  border-radius: 15px;
+  /*5.Hover*/
+  /*6.Transition*/
 }
+.flex-element{
+  /*1.Size*/
+  /*2.Position*/
+  /*3.Flex*/
+  /*4.Design*/
+  /*5.Hover*/
+  /*6.Transition*/
+
+display: inline-flex;
+align-self: flex-end;
+
+
+}
+
 .mainTitle{
-  display: block;
+  
+  flex-basis: 200px;
   padding: 10px;
   height: 80px;
   width: 200px;
-  margin: 0;
+  margin: 0 ;
+  position: absolute;
+  top: 10px;
+  left: 10px;
   opacity: 1;
   text-shadow: 5px 5px 0 gray;
   z-index: 6
 }
 .mainNav{
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
   padding: 10px;
   height: 60px;
   width: 670px;
   position:absolute;
+  top: 80px;
+  left: 230px;
+  right: 0;
   z-index: 6;
   right: 10px;
   top: 10px;
@@ -55,7 +89,7 @@ body{
   font-size: 25;
   }
 .refer{
-  display: inline-block;
+
   padding: 0px;
   height: 45px;
   width: 139px;

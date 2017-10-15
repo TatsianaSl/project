@@ -5,24 +5,23 @@
     <!--document title -->
     <title>FILL YOUR LIFE</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
 </head>
 
 <body>
-<div class="containerHeader">
-    <header>
-            <h1 class="containerHeader mainTitle">FILL YOUR LIFE</h1>
-          <nav class="containerHeader mainNav">
-              <a class="containerHeader mainNav refer" href="article0.html">ОБО МНЕ</a>
+
+    <header class="flex-container">
+              <a class="flex-element mainTitle" href="article.html">FILL YOUR LIFE</a>
+
+              <a class="flex-element mainNav" href="article0.html">ОБО МНЕ</a>
               <!--no page: does not work-->
-              <a class="containerHeader mainNav refer" href="article0.html">МОТИВАЦИЯ НА КАЖДЫЙ ДЕНЬ</a>
+              <a class="flex-element mainNav" class="containerHeader mainNav refer" href="article0.html">МОТИВАЦИЯ НА КАЖДЫЙ ДЕНЬ</a>
               <!--no page: does not work-->
-              <a class="containerHeader mainNav refer" href="article.html">СТАТЬИ ПО МОТИВАЦИИ</a>
+              <a class="flex-element mainNav"  class="containerHeader mainNav refer" href="article.html">СТАТЬИ ПО МОТИВАЦИИ</a>
               <!--MUST WORK BUT does not work-->
-              <a class="containerHeader mainNav refer" href="contacts.html">КОНТАКТЫ</a>
-            </nav>
+              <a class="flex-element mainNav" class="containerHeader mainNav refer" href="contacts.html">КОНТАКТЫ</a>
     </header>
-</div>
+
       <aside class="shell">
               <h2 class="shell tytle">Статьи по мотивации</h2>
 
@@ -63,8 +62,11 @@
 
         </article>
       </div>
-      <footer>
-        (c) Tatsiana Slavinskaya 2017
+      <footer class="footer-container">
+        <div class=" footer-container footer-flex">(c) Tatsiana Slavinskaya 2017</div>
+        <div>
+          <a class="footer-container footer-flex" href="mailto:sltatsiana@gmail.com">Написать письмо</a>
+        </div>
       </footer>
   </body>
 </html>

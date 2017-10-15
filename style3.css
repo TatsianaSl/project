@@ -1,0 +1,171 @@
+/*1.Size*/
+/*2.Position*/
+/*3.Flex*/
+/*4.Design*/
+/*5.Hover*/
+/*6.Transition*/
+
+*{
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 32;
+  color: navy;
+  *background-image: url(bg.jpg);
+}
+
+.flex-container{
+  /*1.Size*/
+  height: 120px;
+  width: 100%;
+  /*2.Position*/
+  position: fixed;
+  z-index: 1
+  top: 0;
+  left: 0;
+  /*3.Flex*/
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  /*4.Design*/
+  background-image: linear-gradient(white, yellow, orange);
+  opacity: 1;
+  border: 1px red solid;
+  border-radius: 15px;
+  /*5.Hover*/
+  /*6.Transition*/
+}
+.mainTitle{
+  /*1.Size*/
+  font-size: 32px;
+  /*2.Position*/
+  margin: 0 ;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  z-index: 2
+  /*3.Flex*/
+  /*4.Design*/
+  text-decoration-style: dotted;
+  /*5.Hover*/
+  /*6.Transition*/
+}
+.mainTitle:hover{
+  color: green;
+  font-size: 40px;
+  text-shadow: 5px 5px 0 gray;
+}
+.mainNav{
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 50px;
+  margin: 5px;
+}
+.mainNav:hover{
+  font-size: 20px;
+}
+.shell{
+  /*1.Size*/
+  /*2.Position*/
+  position: fixed;
+  top: 145px;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  /*3.Flex*/
+  /*4.Design*/
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 15px;
+  opacity: 0.8;
+  font-size: 20;
+  text-align: center;
+  z-index: 3;
+  /*5.Hover*/
+  /*6.Transition*/
+}
+
+.tytle{
+  display: block;
+  top: 10px;
+  width: 150px;
+  height: auto;
+  padding: 5px;
+  margin: 5px;
+  z-index: 4;
+  position: relative;
+  font-size: 20;
+  text-align: center;
+}
+.reference{
+  display: block;
+  top: 10px;
+  width: 150px;
+  height: auto;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+  font-size: 20;
+  text-align: center;
+}
+.footer-container{
+  /*1.Size*/
+  height: 25px;
+  width: 100%;
+  /*2.Position*/
+  position: relative;
+    bottom: 0;
+  /*3.Flex*/
+
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+  /*4.Design*/
+  border-color: red;
+  border-width: thin;
+  border-radius: 15px;
+  background-color: white;
+  opacity: 0.8
+  /*5.Hover*/
+  /*6.Transition*/
+}
+.footer-flex{
+  display: flex-element;
+  flex-direction: row;
+
+
+}
+.art-tytle{
+  display: block;
+  padding: 70px 10px 10px 10px;
+  height: 80px;
+  width: 700px;
+  margin: 10;
+  text-shadow: 2px 2px 0 lightgray;
+  opacity: 1;
+  position: relative;
+  text-align: center;
+  z-index: 4;
+}
+
+article{
+  display: inline-block;
+  margin-top: 145px;
+  margin-left: 5px;
+  padding: 5px;
+  height: 750px;
+  width: 100%;
+  line-height: 1.5;
+  overflow: auto;
+  border: 1px;
+  border-color: white;
+  border-radius: 15px;
+  background: white;
+  opacity: 0.8
+
+}
