@@ -1,13 +1,24 @@
-grid-container{
+body{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 20;
+  color: navy;
+  background-image: url("bg.jpg");
+}
+
+.grid-container{
   display: grid;
   min-height: 100vh;
-  grid-template-columns: 200px 250px 250px 250px;
-  grid-template-rows: 100px 50px 50px 200px 50px 200px 50px 200px 50px;
+  grid-template-columns: 200px 1fr 1fr 1fr;
+  grid-template-rows: 100px 30px 20px 1fr 20px 1fr 20px 1fr 50px;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
 }
 .grid-container div{
+  background-color: white;
+  opacity: .8;
+  border-radius: 5px;
   border: 1px solid blue;
+
 }
 .grid-header{
 grid-row-start: 1;
