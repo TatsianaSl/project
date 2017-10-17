@@ -8,8 +8,8 @@ body{
 .grid-container{
   display: grid;
   min-height: 100vh;
-  grid-template-columns: 200px 1fr 1fr 1fr;
-  grid-template-rows: 100px 30px 20px 250px 20px 250px 20px 250px 50px;
+  grid-template-columns: 170px 250px 1fr 250px;
+  grid-template-rows: 90px 30px 20px 250px 20px 250px 20px 250px 50px;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
 }
@@ -97,4 +97,31 @@ grid-column-end: 5;
   grid-row-end: 10;
   grid-column-start: 1;
   grid-column-end: 5;
+}
+/*Header animation*/
+.grid-header-1{
+  display: block;
+  font-size: 70px;
+  font-style: italic;
+  text-shadow: 2px 2px 0 lightgray;
+  color: green;
+  text-decoration: none;
+  animation-name: animation-header;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes animation-header {
+from{
+  color: green;
+  transform: translate(0,0);
+  text-shadow: 2px 2px 0 lightgray;
+}
+to{
+  color: navy;
+  transform: translate(200px);
+  text-shadow: 10px 10px 0 lightgray;
+}
 }
